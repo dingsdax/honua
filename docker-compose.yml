@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  osmtileserver:
+    image: overv/openstreetmap-tile-server
+    container_name: osm_tileserver
+    volumes:
+      - osm-data:/var/lib/postgresql/12/main
+      - osm-rendered-tiles:/var/lib/mod_tile
+    ports:
+      - 8080:80
+    command: "run"
+
+  osmimport:
+    image: overv/openstreetmap-tile-server
+    container_name: osm_import
+    volumes:
+      - [REPLACE_WITH_ACTUAL_PBF_FILE]:/data.osm.pbf
+      - [REPLACE_WITH_ACTUAL_POLY_FILE]:/data.poly
+      - osm-data:/var/lib/postgresql/12/main
+      - osm-rendered-tiles:/var/lib/mod_tile
+    command: "import"
+
+volumes:
+  osm-data:
+  osm-rendered-tiles:

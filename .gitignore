@@ -1,0 +1,6 @@
+Brewfile.lock.json
+Gemfile.lock
+osm_data
+coverage
+.DS_Store
+tmp
