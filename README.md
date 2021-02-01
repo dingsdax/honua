@@ -176,9 +176,9 @@ This started out as a Ruby port of [modest-maps.js](https://github.com/modestmap
 
 <div>Logo & marker icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-Toner & Terrain map tiles by Stamen Design (http://stamen.com),
-under CC BY 3.0 (http://creativecommons.org/licenses/by/3.0).
-Data by OpenStreetMap (http://openstreetmap.org), under ODbL (http://www.openstreetmap.org/copyright).
+Toner & Terrain map tiles by [Stamen Design](http://stamen.com),
+under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0).
+Data by [OpenStreetMap](http://openstreetmap.org), under [ODbL](http://www.openstreetmap.org/copyright).
 
 [Explorer Base Map header image](https://visibleearth.nasa.gov/images/147190/explorer-base-map/147193)
 NASA Earth Observatory map by Joshua Stevens using data from NASA’s MODIS Land Cover, the Shuttle Radar Topography Mission (SRTM), the General Bathymetric Chart of the Oceans (GEBCO), and Natural Earth boundaries.
