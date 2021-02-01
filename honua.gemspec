@@ -25,9 +25,9 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '~> 3.0'
 
-  spec.add_dependency 'async'
-  spec.add_dependency 'ruby-vips'
-  spec.add_dependency 'zeitwerk'
+  spec.add_dependency 'async', '~> 1.28'
+  spec.add_dependency 'ruby-vips', '~> 2.0'
+  spec.add_dependency 'zeitwerk', '~> 2.4'
 
   spec.files = Dir['lib/**/*']
   spec.extra_rdoc_files = Dir['README*', 'LICENSE*']
